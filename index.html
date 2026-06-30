@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Smoke &amp; Barrel — Low &amp; Slow BBQ Food Truck Roaming London</title>
+<meta name="description" content="Smoke &amp; Barrel is a low-and-slow BBQ food truck roaming London. Brisket, pulled pork, burnt ends, loaded fries and proper smoke. Find where we're parked this week and book us for catering." />
+<link rel="canonical" href="https://boz-demo-smokebarrel.vercel.app" />
+<meta name="theme-color" content="#16110f" />
+<meta name="robots" content="index, follow" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="restaurant" />
+<meta property="og:site_name" content="Smoke &amp; Barrel" />
+<meta property="og:title" content="Smoke &amp; Barrel — Low &amp; Slow BBQ Food Truck, London" />
+<meta property="og:description" content="Brisket, pulled pork, burnt ends and proper smoke. Find where the rig is parked this week and book us for catering." />
+<meta property="og:url" content="https://boz-demo-smokebarrel.vercel.app" />
+<meta property="og:image" content="https://picsum.photos/seed/smokebarrel-brisket/1200/630" />
+<meta property="og:locale" content="en_GB" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Smoke &amp; Barrel — Low &amp; Slow BBQ Food Truck, London" />
+<meta name="twitter:description" content="Brisket, pulled pork, burnt ends and proper smoke. Roaming London. Catering available." />
+<meta name="twitter:image" content="https://picsum.photos/seed/smokebarrel-brisket/1200/630" />
+
+<!-- Inline SVG favicon: ember barrel -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2316110f'/%3E%3Cpath d='M16 5c2 3 4 4 4 8a4 4 0 0 1-8 0c0-2 1-3 2-4 0 2 1 2 2 3 .5-2 0-4-0-7z' fill='%23ff6a1a'/%3E%3Cpath d='M16 9c1 1.5 2 2 2 4a2 2 0 0 1-4 0c0-1 .5-2 2-4z' fill='%23ffd23f'/%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="styles.css" />
+
+<!-- JSON-LD: FoodEstablishment / LocalBusiness -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FoodEstablishment",
+  "@id": "https://boz-demo-smokebarrel.vercel.app/#business",
+  "name": "Smoke & Barrel",
+  "description": "Low-and-slow BBQ food truck roaming London. Brisket, pulled pork, burnt ends, loaded fries and proper smoke.",
+  "servesCuisine": ["Barbecue", "American", "Street Food"],
+  "image": "https://picsum.photos/seed/smokebarrel-brisket/1200/630",
+  "url": "https://boz-demo-smokebarrel.vercel.app",
+  "telephone": "+44 7700 900812",
+  "email": "hello@smokeandbarrel.example",
+  "priceRange": "££",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Mercato Metropolitano, 42 Newington Causeway",
+    "addressLocality": "London",
+    "addressRegion": "Greater London",
+    "postalCode": "SE1 6DR",
+    "addressCountry": "GB"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 51.4955,
+    "longitude": -0.0995
+  },
+  "areaServed": "Greater London",
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "11:30", "closes": "21:30" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "11:00", "closes": "22:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "12:00", "closes": "18:00" }
+  ],
+  "sameAs": [
+    "https://www.instagram.com/smokeandbarrel",
+    "https://www.facebook.com/smokeandbarrel",
+    "https://www.tiktok.com/@smokeandbarrel"
+  ],
+  "hasMenu": { "@id": "https://boz-demo-smokebarrel.vercel.app/#menu" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Menu",
+  "@id": "https://boz-demo-smokebarrel.vercel.app/#menu",
+  "name": "Smoke & Barrel Menu",
+  "hasMenuSection": [
+    {
+      "@type": "MenuSection",
+      "name": "Low & Slow",
+      "hasMenuItem": [
+        { "@type": "MenuItem", "name": "Smoked Beef Brisket", "description": "16-hour oak-smoked, sliced to order, butcher paper, pickles", "offers": { "@type": "Offer", "price": "11.50", "priceCurrency": "GBP" } },
+        { "@type": "MenuItem", "name": "Pulled Pork Bun", "description": "12-hour pork shoulder, slaw, house BBQ, brioche", "offers": { "@type": "Offer", "price": "9.50", "priceCurrency": "GBP" } },
+        { "@type": "MenuItem", "name": "Burnt Ends", "description": "Caramelised brisket point, sticky glaze", "offers": { "@type": "Offer", "price": "10.00", "priceCurrency": "GBP" } },
+        { "@type": "MenuItem", "name": "St Louis Ribs (half rack)", "description": "Dry-rubbed, slow-smoked, fall-off-the-bone", "offers": { "@type": "Offer", "price": "13.00", "priceCurrency": "GBP" } }
+      ]
+    },
+    {
+      "@type": "MenuSection",
+      "name": "Sides",
+      "hasMenuItem": [
+        { "@type": "MenuItem", "name": "Smoked Mac & Cheese", "offers": { "@type": "Offer", "price": "5.00", "priceCurrency": "GBP" } },
+        { "@type": "MenuItem", "name": "Charred Corn Ribs", "offers": { "@type": "Offer", "price": "4.50", "priceCurrency": "GBP" } },
+        { "@type": "MenuItem", "name": "House Slaw", "offers": { "@type": "Offer", "price": "3.50", "priceCurrency": "GBP" } }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ===== Header / Nav ===== -->
+<header class="site-header" id="top">
+  <div class="container nav-bar">
+    <a href="#top" class="brand" aria-label="Smoke and Barrel home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="34" height="34" role="img" aria-hidden="true">
+          <rect width="40" height="40" rx="8" fill="#ff6a1a"/>
+          <path d="M20 7c2.5 3.6 5 5 5 9.6a5 5 0 0 1-10 0c0-2.5 1.3-3.8 2.6-5 0 2.4 1.2 2.6 2.4 3.7.6-2.6 0-4.8 0-8.3z" fill="#16110f"/>
+          <path d="M20 12c1.4 2 2.6 2.7 2.6 5a2.6 2.6 0 0 1-5.2 0c0-1.4.7-2.6 2.6-5z" fill="#ffd23f"/>
+        </svg>
+      </span>
+      <span class="brand-text">Smoke <em>&amp;</em> Barrel</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#schedule">Where we're parked</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#feed">The 'Cue</a></li>
+        <li><a href="#catering">Catering</a></li>
+        <li><a href="#loyalty">Loyalty</a></li>
+        <li><a class="nav-cta" href="#catering">Book the rig</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="smoke-layer" aria-hidden="true">
+      <span class="smoke s1"></span><span class="smoke s2"></span><span class="smoke s3"></span>
+    </div>
+    <div class="ember-layer" id="emberLayer" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <p class="hero-kicker">London · roaming · low &amp; slow since 2019</p>
+      <h1 id="hero-title">Real smoke.<br><span class="flame-text">Proper 'cue.</span><br>On four wheels.</h1>
+      <p class="hero-lead">A converted horsebox, a 1,200&nbsp;litre offset smoker named <strong>Bessie</strong>, and 16&nbsp;hours of oak between you and the best brisket in the city. We roam London markets, breweries and festivals. Track us down.</p>
+      <div class="hero-actions">
+        <a class="btn btn-flame" href="#schedule">Find us this week</a>
+        <a class="btn btn-ghost" href="#menu">See the menu</a>
+      </div>
+      <ul class="hero-stats" aria-label="At a glance">
+        <li><strong>16h</strong><span>smoke time</span></li>
+        <li><strong>4</strong><span>days roaming</span></li>
+        <li><strong>£0</strong><span>shortcuts</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Schedule: Where we're parked this week ===== -->
+  <section class="section schedule" id="schedule" aria-labelledby="schedule-title">
+    <div class="container">
+      <p class="eyebrow">Track the rig</p>
+      <h2 id="schedule-title">Where we're parked this week</h2>
+      <p class="section-lead">Bessie's on the move. Tap a day to see where to find us and what's coming off the smoker. Smoke runs till sold out, so come hungry and come early.</p>
+
+      <div class="schedule-grid">
+        <ol class="day-list" id="dayList" role="tablist" aria-label="This week's locations">
+          <!-- buttons injected by JS -->
+        </ol>
+
+        <div class="schedule-detail">
+          <div class="detail-card" id="detailCard" aria-live="polite">
+            <!-- detail injected by JS -->
+          </div>
+          <div class="map-wrap">
+            <iframe
+              id="scheduleMap"
+              title="Map showing where Smoke and Barrel is parked"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=-0.115%2C51.488%2C-0.084%2C51.503&layer=mapnik&marker=51.4955%2C-0.0995"></iframe>
+            <a class="map-link" id="mapLink" href="https://www.openstreetmap.org/?mlat=51.4955&mlon=-0.0995#map=15/51.4955/-0.0995" target="_blank" rel="noopener">Open in full map ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Menu ===== -->
+  <section class="section menu" id="menu" aria-labelledby="menu-title">
+    <div class="container">
+      <p class="eyebrow">From the smoker</p>
+      <h2 id="menu-title">The menu</h2>
+      <p class="section-lead">Everything's smoked on-site over British oak and fruitwood. Gluten-free buns and a meat-free smoked jackfruit option always available — just ask at the hatch.</p>
+
+      <div class="menu-tabs" role="tablist" aria-label="Menu categories" id="menuTabs">
+        <button class="menu-tab is-active" role="tab" aria-selected="true" aria-controls="panel-lowslow" id="tab-lowslow" data-cat="lowslow">Low &amp; Slow</button>
+        <button class="menu-tab" role="tab" aria-selected="false" aria-controls="panel-sides" id="tab-sides" data-cat="sides" tabindex="-1">Sides</button>
+        <button class="menu-tab" role="tab" aria-selected="false" aria-controls="panel-fries" id="tab-fries" data-cat="fries" tabindex="-1">Loaded Fries</button>
+        <button class="menu-tab" role="tab" aria-selected="false" aria-controls="panel-drinks" id="tab-drinks" data-cat="drinks" tabindex="-1">Drinks</button>
+      </div>
+
+      <div class="menu-panels" id="menuPanels">
+        <!-- panels injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Feed / The 'Cue ===== -->
+  <section class="section feed" id="feed" aria-labelledby="feed-title">
+    <div class="container">
+      <p class="eyebrow">@smokeandbarrel</p>
+      <h2 id="feed-title">The 'Cue, up close</h2>
+      <p class="section-lead">Smoke rings, bark and queues. Tap any shot to open it.</p>
+      <ul class="feed-grid" id="feedGrid" aria-label="Photo gallery">
+        <!-- injected by JS -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Catering ===== -->
+  <section class="section catering" id="catering" aria-labelledby="catering-title">
+    <div class="container catering-inner">
+      <div class="catering-copy">
+        <p class="eyebrow">Book the rig</p>
+        <h2 id="catering-title">Catering &amp; private events</h2>
+        <p>Weddings, launch parties, festivals, film sets and that birthday that needs serious meat. We bring Bessie, the team and a feast that gets people talking. Feeding 30 to 500. London and the home counties.</p>
+        <ul class="catering-list">
+          <li>Bespoke menus, dietary options &amp; veggie smoke</li>
+          <li>Fully insured, food-hygiene rated 5</li>
+          <li>Power-independent — we're self-sufficient on site</li>
+        </ul>
+        <p class="catering-note">Drop the details below and we'll come back within 24 hours with a quote. No deposit to enquire.</p>
+      </div>
+
+      <form class="catering-form" id="cateringForm" novalidate aria-labelledby="catering-form-title">
+        <h3 id="catering-form-title" class="form-title">Tell us about your event</h3>
+
+        <div class="field">
+          <label for="cf-name">Your name</label>
+          <input id="cf-name" name="name" type="text" autocomplete="name" required aria-required="true" />
+          <span class="field-error" data-for="cf-name"></span>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="cf-email">Email</label>
+            <input id="cf-email" name="email" type="email" autocomplete="email" required aria-required="true" />
+            <span class="field-error" data-for="cf-email"></span>
+          </div>
+          <div class="field">
+            <label for="cf-phone">Phone <span class="opt">(optional)</span></label>
+            <input id="cf-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" />
+            <span class="field-error" data-for="cf-phone"></span>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="cf-date">Event date</label>
+            <input id="cf-date" name="date" type="date" required aria-required="true" />
+            <span class="field-error" data-for="cf-date"></span>
+          </div>
+          <div class="field">
+            <label for="cf-guests">Approx. guests</label>
+            <input id="cf-guests" name="guests" type="number" min="10" max="800" inputmode="numeric" required aria-required="true" />
+            <span class="field-error" data-for="cf-guests"></span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="cf-message">Tell us more</label>
+          <textarea id="cf-message" name="message" rows="4" required aria-required="true" placeholder="Type of event, location, vibe, any must-haves…"></textarea>
+          <span class="field-error" data-for="cf-message"></span>
+        </div>
+
+        <button type="submit" class="btn btn-flame btn-block">Send enquiry</button>
+        <p class="form-success" id="cateringSuccess" role="status" hidden>🔥 Booked into the diary — we'll be in touch within 24 hours. Check your inbox for a copy.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== Loyalty ===== -->
+  <section class="section loyalty" id="loyalty" aria-labelledby="loyalty-title">
+    <div class="container">
+      <p class="eyebrow">Regulars get rewarded</p>
+      <h2 id="loyalty-title">The Smoke Card</h2>
+      <p class="section-lead">Six visits, one free plate. Stamp your card right here each time you find us — it saves to this device, no app, no email.</p>
+
+      <div class="loyalty-card">
+        <div class="loyalty-card-top">
+          <span class="loyalty-brand">SMOKE &amp; BARREL</span>
+          <span class="loyalty-tag">Loyalty</span>
+        </div>
+        <ol class="stamp-row" id="stampRow" aria-label="Loyalty stamps collected">
+          <!-- stamps injected by JS -->
+        </ol>
+        <p class="loyalty-status" id="loyaltyStatus" aria-live="polite"></p>
+        <div class="loyalty-actions">
+          <button class="btn btn-flame" id="stampBtn" type="button">Stamp this visit</button>
+          <button class="btn btn-ghost btn-sm" id="resetLoyalty" type="button">Reset card</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="site-footer" id="contact">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="brand-text">Smoke <em>&amp;</em> Barrel</span>
+      <p>Low &amp; slow BBQ on four wheels. Roaming London since 2019.</p>
+      <div class="footer-socials" aria-label="Social links">
+        <a href="https://www.instagram.com/smokeandbarrel" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+        <a href="https://www.facebook.com/smokeandbarrel" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+        <a href="https://www.tiktok.com/@smokeandbarrel" target="_blank" rel="noopener" aria-label="TikTok">TikTok</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h2 class="footer-h">Find &amp; book us</h2>
+      <address>
+        <p><strong>Home base:</strong><br>Mercato Metropolitano,<br>42 Newington Causeway,<br>London SE1 6DR</p>
+        <p>Serving Greater London &amp; the home counties</p>
+        <p>
+          <a href="tel:+447700900812">07700 900812</a><br>
+          <a href="https://wa.me/447700900812" target="_blank" rel="noopener">WhatsApp us</a><br>
+          <a href="mailto:hello@smokeandbarrel.example">hello@smokeandbarrel.example</a>
+        </p>
+      </address>
+    </div>
+
+    <div class="footer-col">
+      <h2 class="footer-h">Trading times</h2>
+      <ul class="hours">
+        <li><span>Mon</span><span>Resting Bessie</span></li>
+        <li><span>Tue–Fri</span><span>11:30 – 21:30</span></li>
+        <li><span>Sat</span><span>11:00 – 22:00</span></li>
+        <li><span>Sun</span><span>12:00 – 18:00</span></li>
+      </ul>
+      <p class="footer-fine">Smoke runs till sold out. Locations change weekly — check the schedule.</p>
+    </div>
+  </div>
+
+  <div class="footer-bar">
+    <div class="container footer-bar-inner">
+      <p>© <span id="year"></span> Smoke &amp; Barrel. All rights reserved. This is a demo site.</p>
+      <p>Demo site built by <a href="https://bozapps.co.uk" target="_blank" rel="noopener">BozApps — bozapps.co.uk</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== Lightbox ===== -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close photo">×</button>
+  <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous photo">‹</button>
+  <figure class="lightbox-figure">
+    <img id="lightboxImg" src="" alt="" />
+    <figcaption id="lightboxCap"></figcaption>
+  </figure>
+  <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next photo">›</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
