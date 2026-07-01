@@ -192,7 +192,7 @@
   feedGrid.innerHTML = photos.map((ph, i) =>
     `<li class="feed-item">
        <button class="feed-btn" type="button" data-idx="${i}" aria-label="Open photo: ${ph.cap}">
-         <img src="https://picsum.photos/seed/${ph.seed}/500/500" alt="${ph.cap}" loading="lazy" width="500" height="500" />
+         <img src="https://loremflickr.com/500/500/barbecue?lock=34178" alt="${ph.cap}" loading="lazy" width="500" height="500" />
        </button>
      </li>`).join("");
 
@@ -204,7 +204,7 @@
   function showLb(i) {
     lbIndex = (i + photos.length) % photos.length;
     const ph = photos[lbIndex];
-    lbImg.src = `https://picsum.photos/seed/${ph.seed}/1000/1000`;
+    lbImg.src = `https://loremflickr.com/1000/1000/barbecue?lock=34179`;
     lbImg.alt = ph.cap;
     lbCap.textContent = ph.cap;
   }
